@@ -10,7 +10,7 @@ export default function FormInput({ subHandler }) {
     }
     return (
         <View style={styles.container}>
-
+            {/* comment */}
             <TextInput onChangeText={changeHandler} placeholder="New Todo" style={styles.textInput} />
             <Button onPress={() => { subHandler(text) }} title="Add Todo" color={'green'} />
         </View>
